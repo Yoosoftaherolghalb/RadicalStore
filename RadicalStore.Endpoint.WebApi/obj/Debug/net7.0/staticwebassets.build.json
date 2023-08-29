@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gnfFvIp4Ekv7uNslaJnx+hsSIkmpExbWmS3HMemBa7o=",
+  "Source": "RadicalStore.Endpoint.WebApi",
+  "BasePath": "_content/RadicalStore.Endpoint.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

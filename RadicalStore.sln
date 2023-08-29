@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Framwork", "00.Framwork", "{47B06A4B-570C-41CA-A771-89E69230C224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Core", "01.Core", "{E1CBE44A-0196-4E58-90AC-446CB2572186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrastructure", "02.Infrastructure", "{DD71FED3-60B3-4CE3-BE42-D7DBF6CD56A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Endpoints", "03.Endpoints", "{86421005-8AA5-4D96-9952-AA688EE207C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Core.ApplicationService", "RadicalStore.Core.ApplicationService\RadicalStore.Core.ApplicationService.csproj", "{9B648388-AA84-4DD0-AF86-F589429C6BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Core.Contract", "RadicalStore.Core.Contract\RadicalStore.Core.Contract.csproj", "{8396D664-8040-4627-8067-88992951516F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Core.Domain", "RadicalStore.Core.Domain\RadicalStore.Core.Domain.csproj", "{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1BE2D45B-964C-402B-83D4-418D0F1D9C08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{17FF7434-FD07-40BA-8DCD-D812EA108906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Infrastructure.Services", "RadicalStore.Infrastructure.Services\RadicalStore.Infrastructure.Services.csproj", "{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Infrastructure.SchedulerService", "RadicalStore.Infrastructure.SchedulerService\RadicalStore.Infrastructure.SchedulerService.csproj", "{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Endpoint.WebApi", "RadicalStore.Endpoint.WebApi\RadicalStore.Endpoint.WebApi.csproj", "{59899A19-84AA-4D1B-87B5-EE44D599878A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Framwork.Domain", "RadicalStore.Framwork.Domain\RadicalStore.Framwork.Domain.csproj", "{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Framwork.Shared", "RadicalStore.Framwork.Shared\RadicalStore.Framwork.Shared.csproj", "{9F6E811F-DD11-4615-BEA9-A98F923D4F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Framwork.Tools", "RadicalStore.Framwork.Tools\RadicalStore.Framwork.Tools.csproj", "{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalStore.Framwork.Locating", "RadicalStore.Framwork.Locating\RadicalStore.Framwork.Locating.csproj", "{F2FA524D-0EEC-4E27-8A19-65F735E8E584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B648388-AA84-4DD0-AF86-F589429C6BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B648388-AA84-4DD0-AF86-F589429C6BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B648388-AA84-4DD0-AF86-F589429C6BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B648388-AA84-4DD0-AF86-F589429C6BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8396D664-8040-4627-8067-88992951516F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8396D664-8040-4627-8067-88992951516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8396D664-8040-4627-8067-88992951516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8396D664-8040-4627-8067-88992951516F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59899A19-84AA-4D1B-87B5-EE44D599878A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59899A19-84AA-4D1B-87B5-EE44D599878A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59899A19-84AA-4D1B-87B5-EE44D599878A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59899A19-84AA-4D1B-87B5-EE44D599878A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6E811F-DD11-4615-BEA9-A98F923D4F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6E811F-DD11-4615-BEA9-A98F923D4F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6E811F-DD11-4615-BEA9-A98F923D4F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6E811F-DD11-4615-BEA9-A98F923D4F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FA524D-0EEC-4E27-8A19-65F735E8E584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FA524D-0EEC-4E27-8A19-65F735E8E584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FA524D-0EEC-4E27-8A19-65F735E8E584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FA524D-0EEC-4E27-8A19-65F735E8E584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B648388-AA84-4DD0-AF86-F589429C6BE5} = {E1CBE44A-0196-4E58-90AC-446CB2572186}
+		{8396D664-8040-4627-8067-88992951516F} = {E1CBE44A-0196-4E58-90AC-446CB2572186}
+		{C3D0A001-C4BF-47E4-BCDD-79ED2254F47F} = {E1CBE44A-0196-4E58-90AC-446CB2572186}
+		{1BE2D45B-964C-402B-83D4-418D0F1D9C08} = {DD71FED3-60B3-4CE3-BE42-D7DBF6CD56A2}
+		{17FF7434-FD07-40BA-8DCD-D812EA108906} = {DD71FED3-60B3-4CE3-BE42-D7DBF6CD56A2}
+		{9CE12CF5-F685-446D-AD8A-A0CC02BB3BF7} = {DD71FED3-60B3-4CE3-BE42-D7DBF6CD56A2}
+		{6FF783BB-4E0D-406E-A0ED-BC6CB5F69EB3} = {DD71FED3-60B3-4CE3-BE42-D7DBF6CD56A2}
+		{59899A19-84AA-4D1B-87B5-EE44D599878A} = {86421005-8AA5-4D96-9952-AA688EE207C8}
+		{077A3460-A1F1-40E9-8CBA-5A9B5E1F4C2E} = {47B06A4B-570C-41CA-A771-89E69230C224}
+		{9F6E811F-DD11-4615-BEA9-A98F923D4F79} = {47B06A4B-570C-41CA-A771-89E69230C224}
+		{D7FDB1AF-CEAF-4F7E-90F7-196BB9CCE10F} = {47B06A4B-570C-41CA-A771-89E69230C224}
+		{F2FA524D-0EEC-4E27-8A19-65F735E8E584} = {47B06A4B-570C-41CA-A771-89E69230C224}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F867BD-8F0A-4A61-90A4-E7FF47DCDCE4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RadicalStore.Endpoint.WebApi.props" />
+</Project>
